@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  
+  <title>Job Listings</title>
+</head>
+<body id="body">
+  <h1 id="head"><u>JOB LISTINGS</u></h1>
+  <hr>
+
+  <div class="search-wrapper">
+    <label for="search" id="search4">Job:</label>
+    <input type="search" placeholder="Software" id="search" data-search onfocus="this.style.backgroundColor='yellow'" onblur="this.style.backgroundColor='white'">
+  
+  
+    <label for="search" id="search5" >Country:</label>
+    <input type="search" placeholder="India" id="search2" data-search onfocus="this.style.backgroundColor='yellow'" onblur="this.style.backgroundColor='white'">
+  
+  
+    <label for="search" id="search6">Full/Part:</label>
+    <input type="search" placeholder="Full Time" id="search3" data-search onfocus="this.style.backgroundColor='yellow'" onblur="this.style.backgroundColor='white'">
+
+  </div>
+  <hr>
+ 
+      
+
+  
+  </div>
+  <div class="user-cards" data-user-cards-container></div>
+  <template data-user-template>
+    <div class="card">
+      <div class="header" title id="Title"></div>
+      <div class="header" data-header id="heading"></div>
+      <ul>
+      <li><div class="card-text" ></div></li>
+      <li><div class="card-text2"></div></li>
+      <li><div class="card-text3"></div></li>
+      </ul>
+      </body>
+    </div>
+  </template>
+</body>
+</html>
